@@ -1,0 +1,42 @@
+/* Анимация для плавного появления */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация увеличения при наведении */
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+/* Применение анимации при загрузке */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Применение анимации при наведении */
+.scale-on-hover:hover {
+    animation: scaleUp 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Анимация для вращения */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

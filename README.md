@@ -91,6 +91,17 @@ lab2/
 
 ---
 
+## Лабораторная работа 4
+
+<p>
+  <a href="https://github.com/ajoelp/mock-json-server">mock json server</a>
+</p>
+Для запуска mock бекенда используется data.json из проекта.
+
+```
+npx mock-json-server test/data.json --port=3000
+```
+
 # Подборка мемов
 
 | Мем 1                                  | Мем 2                                  | Мем 3                                  |

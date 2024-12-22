@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <script src="scripts/validation.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1 class="site-title">Отправить мем</h1>
+        <nav class="navigation">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="gallery.html" class="nav-link">Галерея</a>
+            <a href="form.html" class="nav-link active">Форма</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="form-section">
+        <h2 class="form-title">Добавьте ваш мем</h2>
+        <p class="form-description">Пожалуйста, заполните форму ниже, чтобы отправить мем.</p>
+        <form id="contactForm" class="styled-form">
+            <div class="form-group">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" placeholder="Ваше имя" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required />
+            </div>
+            <div class="form-group">
+                <label for="link">Ссылка на мем</label>
+                <input type="url" id="link" name="link" placeholder="Вставьте ссылку на мем" required />
+            </div>
+            <button type="submit" class="submit-button">Отправить</button>
+        </form>
+        <div id="loader" class="loader" style="display: none;">Загрузка...</div>
+        <div id="form-message" class="form-message" style="display: none;"></div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Мем-сайт. Все права защищены.</p>
+    </div>
+</footer>
+</body>
+</html>

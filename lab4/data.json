@@ -1,0 +1,18 @@
+{
+  "/gallery": {
+    "get": {
+      "data": [
+        { "id": 1, "name": "Meme 1", "email": "example1@test.com", "link": "https://camo.githubusercontent.com/414dcbc854f2b13b2863959d716d124fd24dc9ac414b97fa7f78fc6ccf0f965a/68747470733a2f2f692e706f7374696d672e63632f6e686467547451792f70686f746f2d323032342d30312d32322d31352d31372d34332e6a7067" },
+        { "id": 2, "name": "Meme 2", "email": "example2@test.com", "link": "https://camo.githubusercontent.com/42e9e6f36aa416865c2abc52fb0167c5f144eee6ee26f6a2bbcda60caf5fab13/68747470733a2f2f692e706f7374696d672e63632f4e304246386d6d4a2f70686f746f2d323032342d30352d30322d30302d31302d30392e6a7067" }
+      ]
+    }
+  },
+  "/upload": {
+    "post": {
+      "data": {
+        "status": "ok",
+        "message": "Link accepted"
+      }
+    }
+  }
+}
